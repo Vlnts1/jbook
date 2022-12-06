@@ -1,0 +1,35 @@
+.w-md-editor .title {
+  line-height: unset;
+  font-size: unset;
+  font-weight: unset;
+}
+
+.w-md-editor ul {
+  line-height: 1;
+}
+
+.text-editor em {
+  font-style: italic;
+}
+
+.text-editor .wmde-markdown hr {
+  border-top: 1px solid #dee5ed;
+}
+
+.text-editor .wmde-markdown ol {
+  list-style: decimal;
+}
+
+.text-editor .w-md-editor-bar svg {
+  display: none;
+}
+
+.text-editor .w-md-editor-bar {
+  height: 11px;
+  cursor: row-resize;
+  background-color: #37414b;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  position: relative;
+}

@@ -1,6 +1,6 @@
 {
-  "name": "@codenotebook/local-client",
-  "version": "0.1.0",
+  "name": "@vlnts-notes/local-client",
+  "version": "3.0.0",
   "publishConfig": {
     "access": "public"
   },
@@ -19,27 +19,14 @@
     "@types/prettier": "^2.7.1",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
+    "@types/react-redux": "7.1.24",
     "@types/react-resizable": "1.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
     "@uiw/react-md-editor": "2.1.1",
     "axios": "0.21.1",
     "bulmaswatch": "^0.8.1",
     "esbuild-wasm": "0.8.27",
-    "immer": "^9.0.16",
-    "jscodeshift": "0.11.0",
-    "localforage": "^1.10.0",
-    "monaco-editor": "0.34.1",
-    "monaco-jsx-highlighter": "0.0.15",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-resizable": "1.11.0",
-    "react-scripts": "5.0.1",
-    "redux": "4.0.5",
-    "redux-thunk": "2.3.0",
-    "typescript": "^4.9.3",
-    "web-vitals": "^2.1.4",
-    "@types/react-redux": "7.1.24",
-    "@typescript-eslint/eslint-plugin": "^5.44.0",
-    "@typescript-eslint/parser": "^5.44.0",
     "eslint": "^8.28.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -47,8 +34,21 @@
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.31.11",
+    "immer": "^9.0.16",
+    "jscodeshift": "0.11.0",
+    "localforage": "^1.10.0",
+    "monaco-editor": "0.34.1",
+    "monaco-jsx-highlighter": "0.0.15",
     "prettier": "^2.7.1",
-    "react-redux": "8.0.5"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "8.0.5",
+    "react-resizable": "1.11.0",
+    "react-scripts": "5.0.1",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0",
+    "typescript": "^4.9.3",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -58,7 +58,7 @@
     "serve": "node local-api.js",
     "lint": "eslint --fix src/",
     "prettier": "prettier --write src/",
-    "prepublishOnly": "npm tun build"
+    "prepublishOnly": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -77,5 +77,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "gitHead": "be1ea11036bcefff3f55c7e22de5007cd1cc0b76"
 }

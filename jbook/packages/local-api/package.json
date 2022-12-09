@@ -1,6 +1,6 @@
 {
-  "name": "@codenotebook/local-api",
-  "version": "1.0.0",
+  "name": "@vlnts-notes/local-api",
+  "version": "3.0.0",
   "description": "",
   "files": [
     "dist"
@@ -23,9 +23,10 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
+    "@vlnts-notes/local-client": "^3.0.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6",
-    "@codenotebook/local-client": "^0.1.0"
-  }
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "gitHead": "be1ea11036bcefff3f55c7e22de5007cd1cc0b76"
 }

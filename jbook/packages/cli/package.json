@@ -1,6 +1,6 @@
 {
-  "name": "codenotebook",
-  "version": "1.0.0",
+  "name": "vlnts-notes",
+  "version": "3.0.0",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -17,13 +17,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@codenotebook/local-client": "^1.0.0"
+    "@vlnts-notes/local-client": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
+    "@vlnts-notes/local-api": "^3.0.0",
+    "commander": "^9.4.1",
     "esbuild": "0.8.26",
-    "typescript": "^4.9.3",
-    "@codenotebook/local-api": "^1.0.0",
-    "commander": "^9.4.1"
-  }
+    "typescript": "^4.9.3"
+  },
+  "gitHead": "be1ea11036bcefff3f55c7e22de5007cd1cc0b76"
 }
